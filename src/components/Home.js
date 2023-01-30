@@ -1,8 +1,9 @@
+import { render } from "@testing-library/react";
 import React from "react";
 import {name, city} from "../data/data.js";
 
 function Home() {
-  return (<div>
+  return (<div id="home">
     <h1 style={{color:"firebrick"}}>
       {name} is a Web Developer from {city}
     </h1>

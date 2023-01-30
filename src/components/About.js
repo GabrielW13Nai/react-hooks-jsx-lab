@@ -2,9 +2,9 @@ import React from "react";
 import {image} from "../data/data.js";
 
 function About() {
-  return <div>
+  return <div id="about" >
     <h2>
-      "About Me"
+      About Me
     </h2>
     <p>I am about to start working as a software engineer</p>
     <img src={image} alt="I made this"/>
